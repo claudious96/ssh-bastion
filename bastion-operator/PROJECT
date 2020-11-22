@@ -1,0 +1,10 @@
+domain: crownlabs.polito.it
+repo: example.com/m
+resources:
+- group: tenant
+  kind: Tenant
+  version: v1alpha1
+- group: tenant
+  kind: Bastion
+  version: v1alpha1
+version: "2"

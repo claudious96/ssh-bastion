@@ -1,0 +1,8 @@
+apiVersion: v1
+data:
+  authorized_keys: |
+    # Just a comment to fill in the configmap and start the pod
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: auth-keys-bastion

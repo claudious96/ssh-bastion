@@ -1,0 +1,17 @@
+apiVersion: tenant.crownlabs.polito.it/v1alpha1
+kind: Tenant
+metadata:
+  name: lucaneri
+spec:
+  name: luca
+  surname: neri
+  ID: id1111111
+  email: luca.neri@email.com
+  workspaces:
+    - workspaceURL: LANDC
+      role: Basic
+      groupNumber: 10
+  publicKeys:
+    - key1_lucaneri
+    - key2_lucaneri
+    - key3_lucaneri
